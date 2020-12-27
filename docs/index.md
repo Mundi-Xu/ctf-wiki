@@ -8,12 +8,12 @@
 
 欢迎来到 **CTF Wiki**。
 
-*读者注意*：CTF Wiki最近转为双语，因此CTF中的每一页都是如此
-Wiki现在将以英文和中文提供。只需点击广告按钮即可
-每个页面的顶部看起来像这样
+*读者注意*：CTF Wiki最近转为双语，因此CTF Wiki中的每一页都将提供英文和中文。你只需点击
+每个页面的顶部按钮，顶部按钮看起来像这样:
+[EN](./index-en.md) | [ZH](./index.md)
 
 *NOTE TO READER*: CTF Wiki has recently moved to being bilingual, so each page in CTF 
-Wiki will now be available in both English and Chinese. Simply click the button ad the 
+Wiki will now be available in both English and Chinese. Simply click the button AT the 
 top of each page that looks like the link below: 
 [EN](./index-en.md) | [ZH](./index.md)
  
@@ -25,12 +25,12 @@ top of each page that looks like the link below:
 
 作为一个自由的站点，围绕 **CTF** 近几年赛题，**CTF Wiki** 对 **CTF** 中的各个方向的知识和技术进行介绍，以便于初学者更好地学习 **CTF** 相关的知识。
 
-目前，**CTF Wiki** 主要包含 **CTF** 各大方向的基础知识，正在着力完善以下内容
+目前，**CTF Wiki** 主要包含 **CTF** 各大范畴的基础知识，並正在着力完善以下内容
 
 - CTF 竞赛中的进阶知识
 - CTF 竞赛中的优质题目
 
-关于上述部分待完善内容，请参见 CTF Wiki 的 [Projects](https://github.com/ctf-wiki/ctf-wiki/projects)，详细列举了正在做的事情以及待做事项。
+关于上述部分待完善内容，请参见 CTF Wiki 的 [Projects](https://github.com/ctf-wiki/ctf-wiki/projects)，详细列出了正在做的事项以及待做事项。
 
 当然，**CTF Wiki** 基于 **CTF**，却不会局限于 **CTF**，在未来，**CTF Wiki** 将会
 
@@ -39,7 +39,7 @@ top of each page that looks like the link below:
 
 此外，鉴于以下两点
 
-- 技术更应该以开放的方式共享。
+- 技术应该以开放的方式共享。
 - 安全攻防技术总是保持不断更新，旧的技术在面对新的技术时随时可能失效。
 
 因此，**CTF Wiki** 永远不会出版书籍。
@@ -72,12 +72,12 @@ docker run -d --name=ctf-wiki -p 4100:80 ctfwiki/ctf-wiki
 
 ## How to practice？
 
- 首先，可以通过在线阅读来学习一些基本的安全知识。
+ 首先，可以通过浏览网上资料来学习一些基本的安全知识。
 
 其次，CTF Wiki 还有两个姊妹项目
 
 - CTF Wiki 中涉及的题目在 [ctf-challenges](https://github.com/ctf-wiki/ctf-challenges) 仓库中，请根据对应的分类自行寻找。
-    - 注：目前仍有部分题目在该仓库下，正在迁移中。。。（misc，web）
+    - 注：目前仍有部分题目正在迁移中。。。（misc，web）
 - CTF Wiki 中涉及的工具会不断补充到 [ctf-tools](https://github.com/ctf-wiki/ctf-tools) 仓库中。
 
 ## How to make CTF Wiki Better？
@@ -95,20 +95,20 @@ docker run -d --name=ctf-wiki -p 4100:80 ctfwiki/ctf-wiki
 - 快速学习新事物的能力
 - 一个不一样的思考方式
 - 一颗乐于解决问题的心
-- 一些有趣的安全技术
+- 一些有趣的网络安全技术
 - 一段充实奋斗的时光
 
-在阅读 Wiki 之前，我们希望能给予你几点建议：
+在阅读 Wiki 之前，我们希望能给予你一些建议：
 
-- 阅读短文 [提问的智慧](http://www.jianshu.com/p/60dd8e9cd12f)
-- 善用 Google 搜索能帮助你更好地提升自己
-- 至少掌握一门编程语言，比如 Python
-- 动手实践比什么都要管用
+- 阅读 [提问的智慧](http://www.jianshu.com/p/60dd8e9cd12f)
+- 善用 Google 搜索可以帮助你更好地提升自己
+- 掌握至少一门编程语言，比如 Python
+- 实践比什么都要管用
 - 保持对技术的好奇与渴望并坚持下去
 
-> 世界很大，互联网让世界变小，真的黑客们应该去思考并创造，无论当下是在破坏还是在创造，记住，未来，那条主线是创造的就对了。 ——by 余弦
+> 世界很大，互联网让世界变小，真的黑客们应该去思考并创造，无论当下是在破坏还是在创造，记住，未来，那主线是创造就对了。 ——by 余弦
 
-安全圈很小，安全的海洋很深。安全之路的探险，不如就从 **CTF Wiki** 开始！
+安全圈很小，安全的海洋很深。与其盲目地进行在安全之路的探险，不如就从 **CTF Wiki** 开始！
 
 ## Copyleft
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
@@ -117,33 +117,48 @@ docker run -d --name=ctf-wiki -p 4100:80 ctfwiki/ctf-wiki
 
 ## Material color palette 颜色主题
 
+### Color Scheme 配色方案
+
+根据浏览器与系统设置自动切换明暗主题，也可手动切换
+<div class="tx-switch">
+<button data-md-color-scheme="default"><code>Default</code></button>
+<button data-md-color-scheme="slate"><code>Slate</code></button>
+</div>
+<script>
+  var buttons = document.querySelectorAll("button[data-md-color-scheme]")
+  Array.prototype.forEach.call(buttons, function(button) {
+    button.addEventListener("click", function() {
+      document.body.dataset.mdColorScheme = this.dataset.mdColorScheme;
+      localStorage.setItem("data-md-color-scheme",this.dataset.mdColorScheme);
+    })
+  })
+</script>
+
 ### Primary colors 主色
 
-> 默认 `white`
-
 点击色块可更换主题的主色
-
-<button data-md-color-primary="red">Red</button>
-<button data-md-color-primary="pink">Pink</button>
-<button data-md-color-primary="purple">Purple</button>
-<button data-md-color-primary="deep-purple">Deep Purple</button>
-<button data-md-color-primary="indigo">Indigo</button>
-<button data-md-color-primary="blue">Blue</button>
-<button data-md-color-primary="light-blue">Light Blue</button>
-<button data-md-color-primary="cyan">Cyan</button>
-<button data-md-color-primary="teal">Teal</button>
-<button data-md-color-primary="green">Green</button>
-<button data-md-color-primary="light-green">Light Green</button>
-<button data-md-color-primary="lime">Lime</button>
-<button data-md-color-primary="yellow">Yellow</button>
-<button data-md-color-primary="amber">Amber</button>
-<button data-md-color-primary="orange">Orange</button>
-<button data-md-color-primary="deep-orange">Deep Orange</button>
-<button data-md-color-primary="brown">Brown</button>
-<button data-md-color-primary="grey">Grey</button>
-<button data-md-color-primary="blue-grey">Blue Grey</button>
-<button data-md-color-primary="white">White</button>
-
+<div class="tx-switch">
+<button data-md-color-primary="red"><code>Red</code></button>
+<button data-md-color-primary="pink"><code>Pink</code></button>
+<button data-md-color-primary="purple"><code>Purple</code></button>
+<button data-md-color-primary="deep-purple"><code>Deep Purple</code></button>
+<button data-md-color-primary="indigo"><code>Indigo</code></button>
+<button data-md-color-primary="blue"><code>Blue</code></button>
+<button data-md-color-primary="light-blue"><code>Light Blue</code></button>
+<button data-md-color-primary="cyan"><code>Cyan</code></button>
+<button data-md-color-primary="teal"><code>Teal</code></button>
+<button data-md-color-primary="green"><code>Green</code></button>
+<button data-md-color-primary="light-green"><code>Light Green</code></button>
+<button data-md-color-primary="lime"><code>Lime</code></button>
+<button data-md-color-primary="yellow"><code>Yellow</code></button>
+<button data-md-color-primary="amber"><code>Amber</code></button>
+<button data-md-color-primary="orange"><code>Orange</code></button>
+<button data-md-color-primary="deep-orange"><code>Deep Orange</code></button>
+<button data-md-color-primary="brown"><code>Brown</code></button>
+<button data-md-color-primary="grey"><code>Grey</code></button>
+<button data-md-color-primary="blue-grey"><code>Blue Grey</code></button>
+<button data-md-color-primary="white"><code>White</code></button>
+</div>
 <script>
   var buttons = document.querySelectorAll("button[data-md-color-primary]");
   Array.prototype.forEach.call(buttons, function(button) {
@@ -156,27 +171,25 @@ docker run -d --name=ctf-wiki -p 4100:80 ctfwiki/ctf-wiki
 
 ### Accent colors 辅助色
 
-> 默认 `red`
-
 点击色块更换主题的辅助色
-
-<button data-md-color-accent="red">Red</button>
-<button data-md-color-accent="pink">Pink</button>
-<button data-md-color-accent="purple">Purple</button>
-<button data-md-color-accent="deep-purple">Deep Purple</button>
-<button data-md-color-accent="indigo">Indigo</button>
-<button data-md-color-accent="blue">Blue</button>
-<button data-md-color-accent="light-blue">Light Blue</button>
-<button data-md-color-accent="cyan">Cyan</button>
-<button data-md-color-accent="teal">Teal</button>
-<button data-md-color-accent="green">Green</button>
-<button data-md-color-accent="light-green">Light Green</button>
-<button data-md-color-accent="lime">Lime</button>
-<button data-md-color-accent="yellow">Yellow</button>
-<button data-md-color-accent="amber">Amber</button>
-<button data-md-color-accent="orange">Orange</button>
-<button data-md-color-accent="deep-orange">Deep Orange</button>
-
+<div class="tx-switch">
+<button data-md-color-accent="red"><code>Red</code></button>
+<button data-md-color-accent="pink"><code>Pink</code></button>
+<button data-md-color-accent="purple"><code>Purple</code></button>
+<button data-md-color-accent="deep-purple"><code>Deep Purple</code></button>
+<button data-md-color-accent="indigo"><code>Indigo</code></button>
+<button data-md-color-accent="blue"><code>Blue</code></button>
+<button data-md-color-accent="light-blue"><code>Light Blue</code></button>
+<button data-md-color-accent="cyan"><code>Cyan</code></button>
+<button data-md-color-accent="teal"><code>Teal</code></button>
+<button data-md-color-accent="green"><code>Green</code></button>
+<button data-md-color-accent="light-green"><code>Light Green</code></button>
+<button data-md-color-accent="lime"><code>Lime</code></button>
+<button data-md-color-accent="yellow"><code>Yellow</code></button>
+<button data-md-color-accent="amber"><code>Amber</code></button>
+<button data-md-color-accent="orange"><code>Orange</code></button>
+<button data-md-color-accent="deep-orange"><code>Deep Orange</code></button>
+</div>
 <script>
   var buttons = document.querySelectorAll("button[data-md-color-accent]");
   Array.prototype.forEach.call(buttons, function(button) {
@@ -186,3 +199,44 @@ docker run -d --name=ctf-wiki -p 4100:80 ctfwiki/ctf-wiki
     })
   })
 </script>
+
+<style>
+button[data-md-color-accent]> code {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-accent-fg-color);
+  }
+button[data-md-color-primary] > code {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-primary-fg-color);
+  }
+button[data-md-color-primary='white'] > code {
+    background-color: var(--md-primary-bg-color);
+    color: var(--md-primary-fg-color);
+  }
+button[data-md-color-accent],button[data-md-color-primary],button[data-md-color-scheme]{
+    width: 8.4rem;
+    margin-bottom: .4rem;
+    padding: 2.4rem .4rem .4rem;
+    transition: background-color .25s,opacity .25s;
+    border-radius: .2rem;
+    color: #fff;
+    font-size: .8rem;
+    text-align: left;
+    cursor: pointer;
+}
+button[data-md-color-accent]{
+  background-color: var(--md-accent-fg-color);
+}
+button[data-md-color-primary]{
+  background-color: var(--md-primary-fg-color);
+}
+button[data-md-color-scheme='default']{
+  background-color: hsla(0, 0%, 100%, 1);
+}
+button[data-md-color-scheme='slate']{
+  background-color: var(--md-default-bg-color);
+}
+button[data-md-color-accent]:hover, button[data-md-color-primary]:hover {
+    opacity: .75;
+}
+</style>
